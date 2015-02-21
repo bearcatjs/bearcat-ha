@@ -1,0 +1,15 @@
+{
+  "name": "bearcat-ha",
+  "version": "0.0.1",
+  "description": "bearcat high available component for redis, mysql",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt"
+  },
+  "keywords": [
+    "bearcat",
+    "ha"
+  ],
+  "author": "fantasyni",
+  "license": "MIT"
+}
