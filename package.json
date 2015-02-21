@@ -10,6 +10,12 @@
     "bearcat",
     "ha"
   ],
+  "dependencies": {
+    "async": "^0.9.0",
+    "mysql": "2.0.x",
+    "pomelo-logger": "0.1.x",
+    "redis": "0.9.x"
+  },
   "author": "fantasyni",
   "license": "MIT"
 }
