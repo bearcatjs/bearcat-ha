@@ -14,6 +14,7 @@
     "async": "^0.9.0",
     "mysql": "2.0.x",
     "pomelo-logger": "0.1.x",
+    "node-zookeeper-client": "0.2.1",
     "redis": "0.9.x"
   },
   "author": "fantasyni",
