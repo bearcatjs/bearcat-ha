@@ -1,8 +1,11 @@
 {
   "name": "bearcat-ha",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "bearcat high available component for redis, mysql",
   "main": "index.js",
+  "bin": {
+    "bearcat-ha": "./bin/bearcat-ha"
+  },
   "scripts": {
     "test": "grunt"
   },
@@ -11,11 +14,13 @@
     "ha"
   ],
   "dependencies": {
+    "redis": "0.12.x",
+    "mysql": "2.6.x",
     "async": "^0.9.0",
-    "mysql": "2.0.x",
+    "commander": "2.2.0",
+    "json-comments": "0.2.1",
     "pomelo-logger": "0.1.x",
-    "node-zookeeper-client": "0.2.1",
-    "redis": "0.9.x"
+    "node-zookeeper-client": "0.2.x"
   },
   "author": "fantasyni",
   "license": "MIT"
